@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(code:*)",
+      "Bash(xcode-select:*)",
+      "Bash(brew:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /)",
+      "Bash(sudo rm:*)"
+    ]
+  }
+}
