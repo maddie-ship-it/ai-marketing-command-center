@@ -1,6 +1,6 @@
 # AI Marketing Command Center
 
-> Part of [The Multiplier]({GITHUB_URL}) — Episode 002
+> Part of [The Multiplier](https://github.com/maddie-ship-it/ai-marketing-command-center) — Episode 002
 
 ## What You're Building
 
