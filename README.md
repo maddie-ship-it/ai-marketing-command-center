@@ -2,57 +2,36 @@
 
 > From [The Multiplier](https://youtube.com/@maddiebell) — a free series teaching marketers how to build with AI
 
-Set up your AI Marketing Command Center from scratch in 30 minutes. By the end, you'll have a structured project folder, VSCode with Claude Code, Git connected to GitHub, and a live website auto-deploying via Vercel.
+Your AI Marketing Command Center — a structured project where you and Claude build, manage, and deploy marketing assets together. Claude operates as your marketing AI partner, not a generic assistant.
 
-No code. No terminal expertise. Claude does the technical parts for you.
+## What You Get
 
-## What You'll Have When You're Done
-
-- A `marketing-ai/` project folder organized for knowledge, content, and web assets
-- VSCode configured with Claude Code as your AI builder
-- Version control backing up your work to GitHub
-- A live website that auto-deploys every time you push
+- Organized folders for your knowledge base, content, learnings, and web assets
+- A `CLAUDE.md` that makes Claude understand your marketing system and operate within it
+- Git version control backing up your work to GitHub
+- Vercel auto-deploying your site every time you push
 - The daily workflow: edit → push → it's live
 
 ## Prerequisites
 
-You need 3 things installed before starting (the [video]({VIDEO_URL}) walks you through each):
-
 1. **VSCode** — [code.visualstudio.com](https://code.visualstudio.com)
-2. **Claude Code extension** — VSCode Extensions → search "Claude" by Anthropic → Install
+2. **Claude Code extension** — In VSCode, Extensions sidebar → search "Claude" by Anthropic → Install
 3. **Signed in to Claude** — Claude Max subscription or API key
 
-You do NOT need Git, Node.js, or a GitHub account yet. Claude installs and sets those up for you.
+That's it. Everything else gets installed during setup.
 
 ## Quick Start
 
-1. Download this repo as a ZIP (click the green **Code** button → **Download ZIP**)
-2. Extract the ZIP to your Desktop or Downloads folder
-3. Open VSCode → File → Open Folder → select the extracted `ai-marketing-command-center` folder
-4. Open Claude in the sidebar (click the Claude icon)
-5. Say: **"I'm ready to start. Walk me through the setup."**
+1. Download this repo as a ZIP (green **Code** button → **Download ZIP**)
+2. Extract the ZIP and open the folder in VSCode
+3. Open Claude in the sidebar (click the Claude icon)
+4. Type: **`/setup`**
 
-Claude reads the instructions automatically and guides you through 5 steps.
+Claude walks you through installing tools, connecting GitHub, and setting up Vercel. Takes about 30 minutes. When it's done, you have a fully operational command center.
 
-## The 5 Steps
+## After Setup
 
-| Step | What happens | Time |
-|------|-------------|------|
-| 1. Project structure | Claude creates your marketing-ai/ folder with organized subfolders | 5 min |
-| 2. Install tools | Git, Node.js, Live Server — Claude checks and installs what's missing | 5-10 min |
-| 3. Git + GitHub | Version control initialized, project pushed to a private GitHub repo | 10 min |
-| 4. Connect Vercel | Auto-deploy pipeline — every push goes live | 5-10 min |
-| 5. Test the loop | Edit a file, push, watch it go live in 30 seconds | 5 min |
-
-## When You're Done
-
-This repo is a one-time setup wizard. Your project lives at `marketing-ai/`. Delete this repo when you're done:
-
-```bash
-rm -rf ai-marketing-command-center/
-```
-
-From now on, open `marketing-ai/` in VSCode. That's your command center.
+Open Claude in the sidebar and start building. It already knows your folder structure, content workflow, and deployment pipeline. Start by filling your knowledge base — the more context Claude has, the better your content will be.
 
 ## Watch the Episode
 
